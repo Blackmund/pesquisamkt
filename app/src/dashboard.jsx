@@ -482,6 +482,35 @@ export function Account() {
           <input placeholder="forms.suaempresa.com.br" value={acc.customDomain} onChange={(e) => save(() => (acc.customDomain = e.target.value.trim()))} aria-label="Domínio personalizado" />
         </section>
         <section className="panel">
+          <h2>Segurança e Autenticação Google</h2>
+          <p className="muted">Gerencie a conexão OAuth com o Google e visualize o status da criptografia de ponta a ponta.</p>
+          <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '12px 14px', marginBottom: '14px', fontSize: '13px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#166534', fontWeight: '600', marginBottom: '4px' }}>
+              <span>🛡️ Criptografia de Ponta a Ponta Ativa</span>
+            </div>
+            <div style={{ color: '#64748b', fontSize: '12px' }}>
+              Algoritmos: <b>AES-GCM 256-bit</b> (dados em repouso) & <b>PBKDF2 SHA-256</b> (100.000 iterações com salt individual).
+            </div>
+            {d.session?.role && (
+              <div style={{ marginTop: '6px', color: '#334155', fontSize: '12px' }}>
+                Perfil: <b>{d.session.name || d.session.email}</b> ({d.session.role})
+              </div>
+            )}
+          </div>
+          <label style={{ fontSize: '13px', fontWeight: '500', display: 'block', marginBottom: '4px' }}>
+            Google OAuth Client ID (Google Cloud)
+          </label>
+          <input
+            placeholder="ex: 123456789-xyz.apps.googleusercontent.com"
+            value={acc.googleClientId || ''}
+            onChange={(e) => save(() => (acc.googleClientId = e.target.value.trim()))}
+            aria-label="Google Client ID"
+          />
+          <span style={{ fontSize: '11px', color: 'var(--ink-2)' }}>
+            Permite o botão oficial "Continuar com o Google" e login automático (One Tap) no seu domínio da Vercel.
+          </span>
+        </section>
+        <section className="panel">
           <h2>Seus dados</h2>
           <p className="muted">Tudo fica guardado neste navegador. Baixe uma cópia ou apague tudo.</p>
           <div className="row">

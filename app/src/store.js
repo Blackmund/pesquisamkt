@@ -14,11 +14,13 @@ function blank() {
       members: [],
       customDomain: '',
       brandLogo: '',
+      googleClientId: '',
     },
     workspaces: [ws],
     forms: [],
     responses: [],
     stats: {},
+    users: [],
   };
 }
 
