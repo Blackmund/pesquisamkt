@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+app/node_modules/
+
+# Production build outputs
+dist/
+app/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and session data
+*.log
+agent-session.jsonl
+
+# Internal capture, check and cache folders
+capture/
+checks/
+attachments/
+inbox/
+investigation.cany/
+reference/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

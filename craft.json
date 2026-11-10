@@ -1,0 +1,2646 @@
+{
+  "version": 4,
+  "name": "admin.typeform.com",
+  "request": "Vamos clonar o site / criador de forms, mas com todos os recursos pagos liberados. Adicione também os recursos do https://respondi.app/typeform-ou-respondi/ ao nosso site.",
+  "target": {
+    "kind": "website",
+    "url": "https://admin.typeform.com/accounts/01M71R2K5KHS11H3M65ZEYW6ME/workspaces/2TWMSF"
+  },
+  "stack": "React + TypeScript (Vite)",
+  "status": "ready",
+  "note": "Ready: you called it done. Everything so far is kept; a new message carries on from here.",
+  "created_ms": 1794281585063,
+  "updated_ms": 1794309446229,
+  "checks": [
+    {
+      "round": 1,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 83.7327860961505,
+      "note": "start page: 88% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 91%, detail 74%; page height 900 vs 900 px); text 79% alike; missing headings: \"Cookie Preference Centre\", \"Cookie Preference Centre\", \"Your Privacy\", \"Strictly Necessary Cookies\", \"Analytics Cookies\", \"Advertising and profiling cookies\", \"Functional Cookies\", \"Cookie List\"; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #655d67 (background)) | /signup: 81% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 74% alike (layout 82%, detail 67%; page height 900 vs 900 px); text 79% alike; missing headings: \"Cookie Preference Centre\", \"Cookie Preference Centre\", \"Your Privacy\", \"Strictly Necessary Cookies\", \"Analytics Cookies\", \"Advertising and profiling cookies\", \"Functional Cookies\", \"Cookie List\"; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #000000 (text), #d0ced1 (text)) | /to/dwk6gt/: 71% (1440 px: 79% alike (layout 87%, detail 71%; page height 2876 vs 2958 px); 768 px: 70% alike (layout 84%, detail 57%; page height 3347 vs 3270 px); 390 px: 65% alike (layout 82%, detail 48%; page height 5144 vs 4964 px); text 94% alike; missing headings: \"Platform\", \"Tools\", \"TEMPLATES\", \"Research Flow\", \"TEAMS\", \"USE CASES\", \"Plans\", \"SUPPORT\"; missing words: typeform, any, chatgpt, claude, main, mcp, ourcookie, ready, skip; structure 70% alike; missing parts: 22 images, 12 buttons; colours the original uses that the build doesn't: #2a222b (background), #2a222b (text), #faf9fb (text); main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: padding 40 0 0 0 vs the original's 48 0 48 0, no content column (the original's is 1536 px); the \"Terms and policies\" section: padding 48 48 48 48 vs the original's 96 0 96 0, content column 1440 px vs 1536 px; the \"PRODUCT\" footer: padding 190 0 0 0 vs the original's 0 0 0 0, content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: padding 36 0 0 0 vs the original's 48 0 48 0, no content column (the original's is 1536 px); the \"Terms and policies\" section: padding 48 32 48 32 vs the original's 96 0 96 0, content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: padding 40 0 0 0 vs the original's 48 0 48 0, no content column (the original's is 1536 px); the \"Terms and policies\" section: padding 48 16 48 16 vs the original's 64 0 64 0, content column 1440 px vs 1536 px) | /login: 88% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 91%, detail 74%; page height 900 vs 900 px); text 79% alike; missing headings: \"Cookie Preference Centre\", \"Cookie Preference Centre\", \"Your Privacy\", \"Strictly Necessary Cookies\", \"Analytics Cookies\", \"Advertising and profiling cookies\", \"Functional Cookies\", \"Cookie List\"; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #655d67 (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 91%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 80% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-1\\screenshot-1440.png",
+        "checks\\round-1\\screenshot-768.png",
+        "checks\\round-1\\screenshot-390.png",
+        "checks\\round-1\\routes/signup\\screenshot-1440.png",
+        "checks\\round-1\\routes/signup\\screenshot-768.png",
+        "checks\\round-1\\routes/signup\\screenshot-390.png",
+        "checks\\round-1\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-1\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-1\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-1\\routes/login\\screenshot-1440.png",
+        "checks\\round-1\\routes/login\\screenshot-768.png",
+        "checks\\round-1\\routes/login\\screenshot-390.png",
+        "checks\\round-1\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-1\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-1\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794282979782,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.60105802583881
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 81.05328290830435
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 71.4679194335538
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.5763581465634
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.96531196649214
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.32313048215467,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #655d67 (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #000000 (text), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 90%, detail 72%; page height 2876 vs 2878 px); 768 px: 71% alike (layout 84%, detail 57%; page height 3347 vs 3278 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 94% alike; missing headings: \"Platform\", \"Tools\", \"TEMPLATES\", \"Research Flow\", \"TEAMS\", \"USE CASES\", \"Plans\", \"SUPPORT\"; missing words: typeform, any, chatgpt, claude, main, mcp, ourcookie, ready, skip; structure 71% alike; missing parts: 22 images, 12 buttons; colours the original uses that the build doesn't: #2a222b (text), #faf9fb (text); main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: padding 0 48 96 48 vs the original's 96 0 96 0, content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: padding 48 32 96 32 vs the original's 96 0 96 0, content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: padding 64 16 64 16 vs the original's 64 0 64 0, content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #655d67 (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794283102185,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27351522990286
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 72.93325983499045
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.41679213836814,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 60%; page height 3347 vs 3294 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\", \"COMPANY\", \"BLOG\", \"PRODUCT\", \"INTEGRATIONS\", \"RESOURCES\", \"GET TO KNOW US\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: padding 64 0 96 0 vs the original's 96 0 96 0, content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794283233676,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.40327993001048
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794307710679,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794307802581,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794307802581,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794307882095,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794307882095,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794307882095,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794308333843,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794308333843,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794308333843,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794309355136,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794309355136,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 15,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 84.42429648603112,
+      "note": "start page: 87% (1440 px: 90% alike (layout 96%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /signup: 83% (1440 px: 87% alike (layout 92%, detail 83%; page height 900 vs 900 px); 768 px: 81% alike (layout 86%, detail 77%; page height 900 vs 900 px); 390 px: 81% alike (layout 88%, detail 73%; page height 900 vs 900 px); text 79% alike; missing words: 000, 150, 5x, actions, automations, brands, by, contacts, drive, growth, ourcookie, over; structure 72% alike; missing parts: 7 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background), #ebeaec (background), #655d67 (background), #d0ced1 (text)) | /to/dwk6gt/: 73% (1440 px: 81% alike (layout 88%, detail 73%; page height 2876 vs 2924 px); 768 px: 72% alike (layout 84%, detail 61%; page height 3347 vs 3296 px); 390 px: 67% alike (layout 81%, detail 53%; page height 5144 vs 5162 px); text 96% alike; missing headings: \"Research Flow\"; missing words: typeform, connect, main, ourcookie, skip; structure 71% alike; missing parts: 22 images, 12 buttons; main font: Twklausanne 400 in the original, Arial in the build; text sizes the original uses that the build doesn't: 30px; at 1440 px: the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; the \"PRODUCT\" footer: content column 1440 px vs 1536 px; at 768 px: the nav: content column 1440 px vs 768 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px; at 390 px: the nav: content column 1440 px vs 390 px; the \"Legal\" main: content column 1440 px vs 1536 px; the \"Legal\" section: no content column (the original's is 1536 px); the \"Terms and policies\" section: content column 1440 px vs 1536 px) | /login: 87% (1440 px: 90% alike (layout 95%, detail 84%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); text 79% alike; missing words: audience, contacts, follow, ourcookie, patterns, segment, trigger, ups; structure 78% alike; missing parts: 3 images; colours the original uses that the build doesn't: #3c323e00 (background), #ffffffcc (background)) | /login/logout: 91% (1440 px: 100% alike (layout 100%, detail 100%; page height 900 vs 900 px); 768 px: 90% alike (layout 96%, detail 85%; page height 900 vs 900 px); 390 px: 82% alike (layout 90%, detail 74%; page height 900 vs 900 px); structure 0% alike; missing parts: a image) | opened menus and pop-ups at 1440 px: the \"English\" menu 84% alike, the \"Cookie settings\" dialog 89% alike | opened menus and pop-ups at 390 px: the \"English\" menu 79% alike, the \"Cookie settings\" dialog 74% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/signup\\screenshot-1440.png",
+        "checks\\round-0\\routes/signup\\screenshot-768.png",
+        "checks\\round-0\\routes/signup\\screenshot-390.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-1440.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-768.png",
+        "checks\\round-0\\routes/to-dwk6gt\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-1440.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-768.png",
+        "checks\\round-0\\routes/login-logout\\screenshot-390.png"
+      ],
+      "at_ms": 1794309355136,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 87.35644109483404
+        },
+        {
+          "name": "/signup",
+          "dir": "routes/signup",
+          "similarity": 83.27180341595012
+        },
+        {
+          "name": "/to/dwk6gt/",
+          "dir": "routes/to-dwk6gt",
+          "similarity": 73.4408016683255
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 87.33174121555862
+        },
+        {
+          "name": "/login/logout",
+          "dir": "routes/login-logout",
+          "similarity": 90.72069503548737
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/signup doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/signup logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/signup loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/to/dwk6gt/ has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login/logout logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login/logout loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"English\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Cookie settings\" dialog opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "agent_session": "339e6651-6772-49ae-8efd-26ce343aca58",
+  "agent_session_by": "claude-code",
+  "agent_session_deep": true,
+  "allowed_actions": [
+    "tool:web_site_open",
+    "tool:build_command_run"
+  ],
+  "last_reply": "Não mudei nada nesta rodada e a semelhança continua em 84%. Você pediu para deixar a semelhança de lado por enquanto, e o que a comparação aponta só fecharia copiando o nome, o logotipo, as imagens, os textos e a fonte da Typeform, o que não faço.",
+  "asset_budget_usd": 5.0,
+  "generate_assets": false,
+  "questions": "decide",
+  "approvals": {
+    "web": "allow",
+    "commands": "allow",
+    "outside_files": "allow",
+    "publish": "allow",
+    "delete_outside": "allow",
+    "system": "allow",
+    "other_tools": "allow"
+  }
+}
